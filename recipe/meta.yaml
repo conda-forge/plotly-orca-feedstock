@@ -12,11 +12,12 @@ source:
 build:
   number: 0
   noarch: generic
-  script: npm install -g electron@6.1.4 orca
+  script: npm install -g orca
 
 requirements:
   build:
     - nodejs
+    - electron
 
 test:
   commands:
