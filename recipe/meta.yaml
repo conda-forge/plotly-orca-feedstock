@@ -13,12 +13,11 @@ build:
   number: 0
   noarch: generic
   script:
-    - npm install -g orca
+    tgz=$(npm pack)
+    npm install -g $tgz
 
 requirements:
   build:
-    - nodejs
-  run:
     - nodejs
 
 test:
