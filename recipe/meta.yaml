@@ -17,6 +17,8 @@ build:
 requirements:
   build:
     - nodejs
+  run:
+    - gtk3
 
 test:
   commands:
