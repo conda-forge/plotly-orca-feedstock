@@ -5,7 +5,7 @@ Home: https://github.com/plotly/orca
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Command line application for generating static images of interactive plotly charts.
 
