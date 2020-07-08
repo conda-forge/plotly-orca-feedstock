@@ -21,6 +21,7 @@ requirements:
     - gtk3
     - xorg-libxi
     - xorg-libxcursor
+    - xorg-libxdamage
 
 test:
   commands:
