@@ -1,1 +1,2 @@
 gdk-pixbuf2
+gtk3
