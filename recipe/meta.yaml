@@ -12,7 +12,6 @@ source:
 build:
   number: 0
   noarch: generic
-  binary_relocation: false
   script: npm install -g electron@6.1.4 orca
 
 requirements:
