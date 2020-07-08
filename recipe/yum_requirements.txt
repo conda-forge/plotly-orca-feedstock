@@ -1,2 +1,2 @@
 gdk-pixbuf2
-gtk3
+gtk3-devel
