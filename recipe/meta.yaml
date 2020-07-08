@@ -13,8 +13,8 @@ build:
   number: 0
   noarch: generic
   script:
-    tgz=$(npm run pack)
-    npm install -g tgz
+    tgz=$(npm pack)
+    npm install -g electron@6.1.4 $tgz
 
 requirements:
   build:
