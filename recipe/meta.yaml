@@ -19,6 +19,7 @@ requirements:
     - nodejs
   run:
     - gtk3
+    - xorg-libxi
 
 test:
   commands:
