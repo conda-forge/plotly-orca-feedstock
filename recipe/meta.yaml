@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   noarch: generic
-  has_prefix_files:
+  ignore_prefix_files:
     - bin/orca
     - lib/node_modules/orca
   script:
