@@ -23,6 +23,7 @@ requirements:
     - xorg-libxcursor
     - xorg-libxdamage
     - xorg-libxcomposite
+    - xorg-libxrandr
 
 test:
   commands:
