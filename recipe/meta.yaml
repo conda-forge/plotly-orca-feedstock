@@ -10,7 +10,7 @@ source:
   sha256: d527c4dafb8d4b899f77753eb7ce56640d116a4ba4241a7ec732cba774cfc9eb
 
 build:
-  detect_binary_files_with_prefix: False
+  ignore_prefix_files: True
   number: 0
   noarch: generic
   script: npm install -g electron@6.1.4 orca
