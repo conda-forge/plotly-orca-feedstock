@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-npm pack
+npm i
+npm run pack
 mkdir -p $PREFIX/lib
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
