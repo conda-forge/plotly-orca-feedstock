@@ -12,12 +12,12 @@ source:
 build:
   number: 0
   noarch: generic
-  binary_has_prefix_files:
+  ignore_prefix_files:
     - bin/orca
     - lib/node_modules/orca
   script:
     tgz=$(npm pack)
-    npm install -g orca
+    npm install -g electron@6.1.4 $tgz
 
 requirements:
   build:
