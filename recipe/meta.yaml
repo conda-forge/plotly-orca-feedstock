@@ -16,8 +16,7 @@ build:
     - bin/orca
     - lib/node_modules/orca
   script:
-    tgz=$(npm pack)
-    npm install -g electron@6.1.4 $tgz
+    npm pack
     mkdir -p $PREFIX/lib
 
     if [[ "$OSTYPE" == "darwin"* ]]; then
