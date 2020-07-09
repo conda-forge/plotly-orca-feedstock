@@ -22,6 +22,7 @@ requirements:
     - xorg-libxi
     - xorg-libxcursor
     - xorg-libxdamage
+    - xorg-libxcomposite
 
 test:
   commands:
