@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-npm i
+tgz=$(npm pack)
+npm install $tgz
 npm run pack
+
 mkdir -p $PREFIX/lib
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
