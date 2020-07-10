@@ -1,14 +1,15 @@
 {% set name = "orca" %}
 {% set version = "1.3.1" %}
-{% set data = load_setup_py_data() %}
 
 package:
   name: plotly-{{ name|lower }}
-  version: {{ data.get('version') }}
+  version: {{ version }}
 
 source:
   url: https://github.com/plotly/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: 25ebf207d75769c140dcea033a984e7a3a6d919bb8e110a14c890c8cf430f14d
+  patches:
+    - packagelock_7zipbin.patch  # [linux]
 
 build:
   number: 0
@@ -17,21 +18,10 @@ build:
 requirements:
   build:
     - nodejs
-    - {{ compiler('c') }}
-#  run:
-#    - gtk3
-#    - xorg-libxi
-#    - xorg-libxcursor
-#    - xorg-libxdamage
-#    - xorg-libxcomposite
-#    - xorg-libxrandr
 
 test:
   commands:
     - orca --help
-    - npm list -g orca
-  requires:
-    - nodejs
 
 about:
   home: https://github.com/plotly/orca

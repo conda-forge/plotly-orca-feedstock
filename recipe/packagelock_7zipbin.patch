@@ -1,0 +1,13 @@
+diff --git a/package-lock.json b/package-lock.json
+index 6dc49ad..cffb263 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -8,7 +8,7 @@
+       "version": "5.0.3",
+       "resolved": "https://registry.npmjs.org/7zip-bin/-/7zip-bin-5.0.3.tgz",
+       "integrity": "sha512-GLyWIFBbGvpKPGo55JyRZAo4lVbnBiD52cKlw/0Vt+wnmKvWJkpZvsjVoaIolyBXDeAQKSicRtqFNPem9w0WYA==",
+-      "dev": true
++      "optional": true
+     },
+     "@babel/code-frame": {
+       "version": "7.8.3",
