@@ -12,10 +12,7 @@ else
     mv release/linux-unpacked/ $PREFIX/lib/orca_app
 fi
 
-ls $RECIPE_DIR
-ls $RECIPE_DIR/bin
-
-#mkdir -p $PREFIX/bin
-#ORCA_ENTRY=$PREFIX/bin/orca
-#cp $RECIPE_DIR/bin/orca.sh $ORCA_ENTRY
-#chmod +x $ORCA_ENTRY
+mkdir -p $PREFIX/bin
+ORCA_ENTRY=$PREFIX/bin/orca
+cp $RECIPE_DIR/bin/orca $ORCA_ENTRY
+chmod +x $ORCA_ENTRY
