@@ -1,63 +1,14 @@
 diff --git a/package-lock.json b/package-lock.json
-index 6dc49ad..b1688e6 100644
+index 6dc49ad..df21aa4 100644
 --- a/package-lock.json
 +++ b/package-lock.json
-@@ -5,10 +5,36 @@
-   "requires": true,
-   "dependencies": {
-     "7zip-bin": {
--      "version": "5.0.3",
--      "resolved": "https://registry.npmjs.org/7zip-bin/-/7zip-bin-5.0.3.tgz",
--      "integrity": "sha512-GLyWIFBbGvpKPGo55JyRZAo4lVbnBiD52cKlw/0Vt+wnmKvWJkpZvsjVoaIolyBXDeAQKSicRtqFNPem9w0WYA==",
+@@ -8,7 +8,8 @@
+       "version": "5.0.3",
+       "resolved": "https://registry.npmjs.org/7zip-bin/-/7zip-bin-5.0.3.tgz",
+       "integrity": "sha512-GLyWIFBbGvpKPGo55JyRZAo4lVbnBiD52cKlw/0Vt+wnmKvWJkpZvsjVoaIolyBXDeAQKSicRtqFNPem9w0WYA==",
 -      "dev": true
-+      "version": "3.1.0",
-+      "resolved": "https://registry.npmjs.org/7zip-bin/-/7zip-bin-3.1.0.tgz",
-+      "integrity": "sha512-juYJNi8JEpTUWXwz8ssa8Oop4n/kwJ/pIQP22vJAVAe6RTRD+0m+e9LRNnfK2EDaX8uwmUzLNGviFQRD6SxeOw==",
-+      "dev": true,
-+      "requires": {
-+        "7zip-bin-linux": "~1.3.1",
-+        "7zip-bin-mac": "~1.0.1",
-+        "7zip-bin-win": "~2.2.0"
-+      }
-+    },
-+    "7zip-bin-linux": {
-+      "version": "1.3.1",
-+      "resolved": "https://registry.npmjs.org/7zip-bin-linux/-/7zip-bin-linux-1.3.1.tgz",
-+      "integrity": "sha512-Wv1uEEeHbTiS1+ycpwUxYNuIcyohU6Y6vEqY3NquBkeqy0YhVdsNUGsj0XKSRciHR6LoJSEUuqYUexmws3zH7Q==",
-+      "dev": true,
-+      "optional": true
-+    },
-+    "7zip-bin-mac": {
-+      "version": "1.0.1",
-+      "resolved": "https://registry.npmjs.org/7zip-bin-mac/-/7zip-bin-mac-1.0.1.tgz",
-+      "integrity": "sha1-Pmh3i78JJq3GgVlCcHRQXUdVXAI=",
-+      "dev": true,
-+      "optional": true
-+    },
-+    "7zip-bin-win": {
-+      "version": "2.2.0",
-+      "resolved": "https://registry.npmjs.org/7zip-bin-win/-/7zip-bin-win-2.2.0.tgz",
-+      "integrity": "sha512-uPHXapEmUtlUKTBx4asWMlxtFUWXzEY0KVEgU7QKhgO2LJzzM3kYxM6yOyUZTtYE6mhK4dDn3FDut9SCQWHzgg==",
 +      "dev": true,
 +      "optional": true
      },
      "@babel/code-frame": {
        "version": "7.8.3",
-@@ -364,7 +390,7 @@
-       "integrity": "sha512-aOX/nv77/Bti6NymJDg7p9T067xD8m1ipIEJR7B4Mm1GsJWpMm9PZdXtCRiMNRjHtQS5KIljT0g17781y6qn5A==",
-       "dev": true,
-       "requires": {
--        "7zip-bin": "~5.0.3",
-+        "7zip-bin": "~3.1.0",
-         "@develar/schema-utils": "~2.1.0",
-         "async-exit-hook": "^2.0.1",
-         "bluebird-lst": "^1.0.9",
-@@ -803,7 +829,7 @@
-       "integrity": "sha512-Nd6CUb6YgDY8EXAXEIegx+1kzKqyFQ5ZM5BoYkeunAlwz/zDJoH1UCyULjoS5wQe5czNClFQy07zz2bzYD0Z4A==",
-       "dev": true,
-       "requires": {
--        "7zip-bin": "~5.0.3",
-+        "7zip-bin": "~3.1.0",
-         "@types/debug": "^4.1.4",
-         "app-builder-bin": "3.4.3",
-         "bluebird-lst": "^1.0.9",
