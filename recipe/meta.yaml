@@ -8,12 +8,11 @@ package:
 source:
   url: https://github.com/plotly/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: 25ebf207d75769c140dcea033a984e7a3a6d919bb8e110a14c890c8cf430f14d
-  patches:
-    - packagelock_7zipbin.patch
 
 build:
-  number: 0
+  number: 1
   binary_relocation: False
+  skip: True  # [linux]    # skip linux for now. uses electron-builder and 7zip-bin which requires GLIBC_2.14
 
 requirements:
   build:
