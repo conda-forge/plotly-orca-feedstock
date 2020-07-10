@@ -1,9 +1,10 @@
 {% set name = "orca" %}
 {% set version = "3.4.2" %}
+{% set data = load_setup_py_data() %}
 
 package:
   name: plotly-{{ name|lower }}
-  version: {{ version }}
+  version: {{ data.get('version') }}
 
 source:
   url: https://github.com/plotly/{{ name }}/archive/v{{ version }}.tar.gz
