@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-tgz=$(npm pack)
-npm install $tgz
+npm i
 npm run pack
-
 mkdir -p $PREFIX/lib
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -16,5 +14,5 @@ fi
 
 mkdir -p $PREFIX/bin
 ORCA_ENTRY=$PREFIX/bin/orca
-cp $RECIPE_DIR/bin/orca $ORCA_ENTRY
+cp $RECIPE_DIR/bin/orca.sh $ORCA_ENTRY
 chmod +x $ORCA_ENTRY
