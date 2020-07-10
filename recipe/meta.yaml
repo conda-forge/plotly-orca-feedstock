@@ -17,6 +17,7 @@ build:
 requirements:
   build:
     - nodejs
+    - {{ compiler('c') }}
 #  run:
 #    - gtk3
 #    - xorg-libxi
