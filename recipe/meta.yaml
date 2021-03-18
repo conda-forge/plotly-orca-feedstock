@@ -1,5 +1,5 @@
 {% set name = "orca" %}
-{% set version = "3.4.3" %}
+{% set version = "4.1.0" %}
 
 package:
   name: plotly-{{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/plotly/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 35d5d5a03070753b00b4c6bf0ed5dfe056738f1e5e40597b56033f44ecf40665
+  sha256: 62b640ba345ff138358b6625d2cbc876fcf0f2a1a8bc551d82d12ffb494d01c0
 
 build:
-  number: 1
+  number: 0
   binary_relocation: false
   skip: true  # [linux]
 
