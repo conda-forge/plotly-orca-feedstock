@@ -10,7 +10,7 @@ source:
   sha256: 4819f07c570e8a9c0ad0508c9466b4354d20b0434c387e576274fa6bce2ca85c
 
 build:
-  number: 0
+  number: 1
   binary_relocation: false
   skip: true  # [linux]
 
@@ -33,5 +33,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - rluria14
     - oblute
