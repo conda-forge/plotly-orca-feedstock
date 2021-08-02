@@ -8,11 +8,11 @@ jobs:
     vmImage: macOS-10.15
   strategy:
     matrix:
+      osx_64_nodejs12:
+        CONFIG: osx_64_nodejs12
+        UPLOAD_PACKAGES: 'True'
       osx_64_nodejs14:
         CONFIG: osx_64_nodejs14
-        UPLOAD_PACKAGES: 'True'
-      osx_64_nodejs15:
-        CONFIG: osx_64_nodejs15
         UPLOAD_PACKAGES: 'True'
       osx_64_nodejs16:
         CONFIG: osx_64_nodejs16

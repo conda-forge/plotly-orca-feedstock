@@ -31,17 +31,17 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>osx_64_nodejs12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=master&jobName=osx&configuration=osx_64_nodejs12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_nodejs14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=master&jobName=osx&configuration=osx_64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_nodejs15</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=master&jobName=osx&configuration=osx_64_nodejs15" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,17 +52,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>win_64_nodejs12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=master&jobName=win&configuration=win_64_nodejs12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_nodejs14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=master&jobName=win&configuration=win_64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_nodejs15</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=master&jobName=win&configuration=win_64_nodejs15" alt="variant">
                 </a>
               </td>
             </tr><tr>
