@@ -5,17 +5,14 @@
 jobs:
 - job: osx
   pool:
-    vmImage: macOS-10.15
+    vmImage: macOS-11
   strategy:
     matrix:
-      osx_64_nodejs14:
-        CONFIG: osx_64_nodejs14
-        UPLOAD_PACKAGES: 'True'
-      osx_64_nodejs16:
-        CONFIG: osx_64_nodejs16
-        UPLOAD_PACKAGES: 'True'
       osx_64_nodejs18:
         CONFIG: osx_64_nodejs18
+        UPLOAD_PACKAGES: 'True'
+      osx_64_nodejs20:
+        CONFIG: osx_64_nodejs20
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
 

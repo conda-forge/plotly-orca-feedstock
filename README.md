@@ -1,11 +1,11 @@
-About plotly-orca
-=================
+About plotly-orca-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plotly-orca-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/plotly/orca
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plotly-orca-feedstock/blob/main/LICENSE.txt)
 
 Summary: Command line application for generating static images of interactive plotly charts.
 
@@ -31,45 +31,31 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64_nodejs14</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_nodejs16</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs16" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_nodejs18</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs18" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_nodejs18" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_nodejs14</td>
+              <td>osx_64_nodejs20</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_nodejs16</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs16" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_nodejs20" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_nodejs18</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs18" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=win&configuration=win%20win_64_nodejs18" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_nodejs20</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9488&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/plotly-orca-feedstock?branchName=main&jobName=win&configuration=win%20win_64_nodejs20" alt="variant">
                 </a>
               </td>
             </tr>
